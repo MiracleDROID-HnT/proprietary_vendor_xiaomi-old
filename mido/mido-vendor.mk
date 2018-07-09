@@ -139,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/xiaomi/mido/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
+    vendor/xiaomi/mido/proprietary/vendor/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/mido/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
@@ -168,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/mido/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/mido/proprietary/vendor/framework/cneapiclient.jar:$(TARGET_COPY_OUT_VENDOR)/framework/cneapiclient.jar \
+    vendor/xiaomi/mido/proprietary/vendor/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/xiaomi/mido/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/xiaomi/mido/proprietary/vendor/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.quicinc.cne.jar \
     vendor/xiaomi/mido/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
